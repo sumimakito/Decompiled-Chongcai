@@ -8,7 +8,7 @@ For educational purposes only. #(滑稽)
 
 # LINKS
 #### VeFans
-+ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
++ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans/smaliSource)
 #### Sunshine App
-+ [javaSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
-+ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
++ [jdSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/Sunshine/jdSource)
++ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/Sunshine/smaliSource)
