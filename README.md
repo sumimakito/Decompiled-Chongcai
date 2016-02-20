@@ -2,7 +2,9 @@
 
 > Notice: Repository name will be changed to Decompiled-Chongcai shortly.
 
-This repository keeps a decompiled copies of the applications developed by the so-called company "ChongCai".
+This repository keeps a copy of the decompiled applications developed by the so-called company "ChongCai".
+
+A founder of Chongcai said they developed these applications on their own, but look at the package name, we can infer that they have used an automatic tool to generate those applications. Yeah, generating, not developing.
 
 For educational purposes only. #(滑稽)
 
