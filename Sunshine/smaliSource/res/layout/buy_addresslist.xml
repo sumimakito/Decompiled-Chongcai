@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/buy_addresslist_ll_root" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/buy_addresslist_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="地址管理" style="@style/buy_topmenu_text" />
+        <Button android:id="@id/buy_addresslist_btn_edit" android:background="@drawable/transport" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="编辑" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/buy_topmenu_text2" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" style="@style/persion_line" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/buy_addresslist_ll_add" android:background="@drawable/buy_style_personcenter_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/buy_img_addaddress" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+                <TextView android:textColor="@drawable/buy_title_text6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="添加收货地址" android:layout_weight="1.0" />
+                <TextView android:background="@drawable/p_arrow" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+            <cn.apppark.mcd.widget.SwipeListView android:id="@id/buy_addresslist_listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparents" android:cacheColorHint="#ff000000" />
+        </LinearLayout>
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

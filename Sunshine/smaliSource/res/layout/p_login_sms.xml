@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/p_loginsms_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="登录" style="@style/buy_topmenu_text" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/white" android:gravity="center" android:id="@id/p_loginsms_tv_reg" android:layout_width="60.0dip" android:layout_height="50.0dip" android:text="注册" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/buy_personcenter_ll_myorder" android:background="@drawable/circle_corner_buy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_width="60.0dip" android:layout_height="20.0dip" android:text="手机号" />
+            <cn.apppark.mcd.widget.MyEditText2 android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray3" android:gravity="center|left" android:id="@id/p_loginsms_et_phone" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:inputType="phone" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/buy_personcenter_ll_mycollection" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_width="60.0dip" android:layout_height="20.0dip" android:text="密码" />
+            <cn.apppark.mcd.widget.MyEditText2 android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray3" android:gravity="center|left" android:id="@id/p_loginsms_et_pass" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:password="true" android:layout_weight="1.0" />
+            <Button android:gravity="center_vertical" android:id="@id/p_loginsms_btn_findpass" android:background="@drawable/p_forgetpass" android:layout_width="70.0dip" android:layout_height="30.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+    </LinearLayout>
+    <cn.apppark.mcd.widget.MyBtn android:id="@id/p_loginsms_btn_sure" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="35.0dip" />
+</LinearLayout>

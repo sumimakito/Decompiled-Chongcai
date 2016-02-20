@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/dyn_item5021_ll_root" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.apppark.mcd.widget.RemoteImageView android:layout_gravity="center_vertical" android:id="@id/dyn_item5021_img_left" android:background="@drawable/def_pic_186" android:layout_width="67.0dip" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/dyn_item5021_ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_toRightOf="@id/dyn_item5021_img_left">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dyn_item5021_img_state" android:layout_width="24.0dip" android:layout_height="13.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/dyn_new" />
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/black" android:ellipsize="end" android:id="@id/dyn_item5021_tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@drawable/gray" android:ellipsize="end" android:id="@id/dyn_item5021_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="xxxx" android:singleLine="true" android:layout_toRightOf="@id/dyn_item5021_img_left" android:layout_below="@id/dyn_item5021_ll_title" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_toRightOf="@id/dyn_item5021_img_left" android:layout_below="@id/dyn_item5021_tv_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/dyn_eye2" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5021_tv_viewNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="x" android:maxLines="1" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/dyn_com2" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5021_tv_commentnum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:gravity="right" android:id="@id/dyn_item5021_tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2014-12-9" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:background="@drawable/gray11" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

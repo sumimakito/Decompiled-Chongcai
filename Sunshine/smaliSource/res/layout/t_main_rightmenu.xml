@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/t_rightmenu_ll_root" android:background="@drawable/t_menubg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@drawable/gray" android:gravity="center_vertical" android:background="@drawable/black" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="内容" android:maxLines="1" />
+    <TextView android:textColor="@drawable/white" android:gravity="center_vertical" android:id="@id/t_rightmenu_tv_topic" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="我的主题" android:maxLines="1" style="@style/tb_title_text" />
+    <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    <TextView android:textColor="@drawable/white" android:gravity="center_vertical" android:id="@id/t_rightmenu_tv_collection" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="我的收藏" style="@style/tb_title_text" />
+    <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    <TextView android:textColor="@drawable/white" android:gravity="center_vertical" android:id="@id/t_rightmenu_tv_history" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="我的历史" style="@style/tb_title_text" />
+    <TextView android:textColor="@drawable/gray" android:gravity="center_vertical" android:background="@drawable/black" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="通知" android:maxLines="1" />
+    <LinearLayout android:id="@id/t_rightmenu_ll_message" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textColor="@drawable/white" android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="我的消息" style="@style/tb_title_text" />
+        <TextView android:textColor="@drawable/red" android:gravity="center_vertical" android:id="@id/t_rightmenu_tv_msgnumber" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" />
+    </LinearLayout>
+</LinearLayout>

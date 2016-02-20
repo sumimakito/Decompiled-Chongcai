@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dyn_rss5003_ll_root" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:id="@id/dyn_rss5003_tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" android:maxLines="1" />
+    <TextView android:gravity="left" android:id="@id/dyn_rss5003_tv_content" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" android:maxLines="1" />
+</LinearLayout>

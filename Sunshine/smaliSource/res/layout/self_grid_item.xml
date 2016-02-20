@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/self_grid_item_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/self_grid_item_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/self_grid_item_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+</LinearLayout>

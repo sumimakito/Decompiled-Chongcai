@@ -1,0 +1,29 @@
+.class public final Ldk;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Lcn/apppark/vertify/activity/buy/BuyMyOrderList;
+
+
+# direct methods
+.method public constructor <init>(Lcn/apppark/vertify/activity/buy/BuyMyOrderList;)V
+    .locals 0
+
+    iput-object p1, p0, Ldk;->a:Lcn/apppark/vertify/activity/buy/BuyMyOrderList;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 0
+
+    return-void
+.end method

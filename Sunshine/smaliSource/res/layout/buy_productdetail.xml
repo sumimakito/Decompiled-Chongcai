@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/buy_topmenu_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/buy_topmenu_tv_name" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="产品名称" android:singleLine="true" style="@style/buy_topmenu_text" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/buy_productdetail_rel_gallery" android:layout_width="fill_parent" android:layout_height="100.0dip">
+                    <Gallery android:id="@id/buy_productdetail_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="1.0px" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/buy_productdetail_point" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:id="@id/buy_productdetail_tv_title" android:background="@drawable/white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxx" android:maxLines="2" android:layout_below="@id/buy_productdetail_rel_gallery" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/buy_productdetail_ll_price" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/buy_productdetail_tv_title">
+                    <TextView android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="14.0sp" android:textColor="@drawable/red" android:gravity="center|left" android:id="@id/buy_productdetail_tv_price" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="价格" android:maxLines="1" />
+                        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:id="@id/buy_productdetail_tv_orgprice" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="原价" android:maxLines="1" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:id="@id/buy_productdetail_tv_store" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="剩余库存" android:maxLines="1" />
+                        <TextView android:textSize="10.0sp" android:textColor="@drawable/white" android:id="@id/buy_productdetail_tv_store_null" android:background="@drawable/red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 无货  " />
+                        <TextView android:textSize="12.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:id="@id/buy_productdetail_tv_number" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="累积销量" android:maxLines="1" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:id="@id/buy_productdetail_tv_lin1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buy_productdetail_ll_price" />
+                <TextView android:id="@id/buy_productdetail_tv_blank" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_below="@id/buy_productdetail_tv_lin1" />
+                <TextView android:id="@id/buy_productdetail_tv_lin2" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buy_productdetail_tv_blank" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/buy_productdetail_ll_comment" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/buy_productdetail_tv_lin2">
+                    <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="商品评价" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="@drawable/gray9" android:gravity="center" android:id="@id/buy_productdetail_tv_commentnumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" />
+                    <TextView android:layout_gravity="center|right" android:background="@drawable/buy_img_arrow" android:layout_width="8.0dip" android:layout_height="12.0dip" />
+                </LinearLayout>
+                <TextView android:id="@id/buy_productdetail_tv_lin3" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buy_productdetail_ll_comment" />
+                <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:id="@id/buy_productdetail_tv_blank2" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/buy_productdetail_tv_lin3" />
+                <TextView android:id="@id/buy_productdetail_tv_lin4" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buy_productdetail_tv_blank2" />
+                <LinearLayout android:orientation="vertical" android:id="@id/buy_productdetail_ll_detail" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/buy_productdetail_tv_lin4">
+                    <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="商品详情" android:layout_weight="1.0" />
+                    <TextView android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </LinearLayout>
+                <WebView android:id="@id/buy_productdetail_web_detail" android:background="@drawable/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/buy_productdetail_ll_detail" />
+            </RelativeLayout>
+        </ScrollView>
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <RelativeLayout android:id="@id/buy_topmenu_rel_collection" android:layout_width="90.0dip" android:layout_height="fill_parent">
+            <Button android:id="@id/buy_topmenu_btn_collection" android:background="@drawable/dyn_msg_collection" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dyn_productdetail_rel_buycar" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/buy_topmenu_rel_collection">
+            <Button android:id="@id/dyn_productdetail_btn_buycar" android:background="@drawable/buy_img_buycar" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/white" android:gravity="center" android:id="@id/dyn_productdetail_tv_carnumber" android:background="@drawable/red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" android:layout_toRightOf="@id/dyn_productdetail_btn_buycar" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+        <Button android:gravity="right" android:layout_gravity="right" android:id="@id/buy_productdetail_btn_add" android:background="@drawable/buy_add_cart" android:layout_width="145.0dip" android:layout_height="44.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

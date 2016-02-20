@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/dyn_msg_item5022_root" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dyn_msg_item5022_rel_cell1" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cn.apppark.mcd.widget.RemoteImageView android:id="@id/dyn_msg_item5022_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/def_pic" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/black" android:ellipsize="end" android:id="@id/dyn_msg_item5022_tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="xxxx" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/dyn_msg_item5022_img" />
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/gray" android:ellipsize="end" android:id="@id/dyn_msg_item5022_tv_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/dyn_msg_item5022_tv_title" />
+        <LinearLayout android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/dyn_msg_item5022_tv_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/dyn_eye2" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5022_tv_viewNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x" android:maxLines="1" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/dyn_com2" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5022_tv_commentnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:gravity="right" android:id="@id/dyn_item5022_tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2014-12-9" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dyn_msg_item5022_rel_cell2" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cn.apppark.mcd.widget.RemoteImageView android:id="@id/dyn_msg_item5022_img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/def_pic" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:ellipsize="end" android:id="@id/dyn_msg_item5022_tv_title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="15.0dip" android:text="xxxx" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/dyn_msg_item5022_img2" />
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/gray" android:ellipsize="end" android:id="@id/dyn_msg_item5022_tv_content2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/dyn_msg_item5022_tv_title2" />
+        <LinearLayout android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/dyn_msg_item5022_tv_content2">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/dyn_eye2" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5022_tv_viewNum2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x" android:maxLines="1" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/dyn_com2" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:id="@id/dyn_item5022_tv_commentnum2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray10" android:gravity="right" android:id="@id/dyn_item5022_tv_time2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2014-12-9" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

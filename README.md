@@ -7,4 +7,8 @@ This repository keeps a decompiled copies of the applications developed by the s
 For educational purposes only. #(滑稽)
 
 # LINKS
-#### [VeFans V3.1](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
+#### VeFans
++ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
+#### Sunshine App
++ [javaSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)
++ [smaliSource](https://github.com/SumiMakito/Decompiled-Sunshine/tree/master/VeFans)

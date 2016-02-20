@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/t_mycomment_item2_rel_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/t_mycomment_item2_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="xxx" style="@style/tb_content_text" />
+    <TextView android:gravity="center_vertical" android:id="@id/t_mycomment_item2_tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="xxx" android:layout_below="@id/t_mycomment_item2_tv_content" />
+    <TextView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_below="@id/t_mycomment_item2_tv_time" />
+</RelativeLayout>

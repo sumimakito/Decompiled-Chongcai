@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/buy_orderdetail_ll_detail" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="订单号: " />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:id="@id/buy_orderdetail_tv_ordernumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="center" android:id="@id/buy_orderdetail_tv_orderstate" android:background="@drawable/state_finish" android:layout_width="44.0dip" android:layout_height="18.0dip" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" style="@style/persion_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text6" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下单时间:" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text6" android:id="@id/buy_orderdetail_tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单备注:" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:id="@id/buy_orderdetail_tv_note" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/buy_orderdetail_ll_reason" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消原因:" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:id="@id/buy_orderdetail_tv_reason" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" style="@style/persion_line" />
+</LinearLayout>

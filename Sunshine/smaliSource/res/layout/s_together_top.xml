@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Gallery android:gravity="center" android:orientation="horizontal" android:id="@id/s_together_gallery" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/s_together_point" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignBottom="@id/s_together_gallery" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/s_together_ll_type" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/s_together_gallery" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:id="@id/s_together_tv_line" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/s_together_ll_type" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dyn_comment_ll_root" android:background="@drawable/dyn_msgbg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/buy_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="详细" style="@style/buy_topmenu_text" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/buy_msgcommentrep_fra_keyboard" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <cn.apppark.mcd.widget.PullDownListView3 android:id="@id/buy_msgcommentrep_listView" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/gray3" android:dividerHeight="1.0dip" />
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:background="@drawable/dyn_menubg2" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:id="@id/buy_msgcommentrep_et" android:background="@drawable/et_bg" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="55.0dip" android:minHeight="35.0dip" android:hint="回复评论" android:cursorVisible="false" android:maxLines="10" android:layout_centerVertical="true" />
+        <Button android:layout_gravity="center" android:id="@id/buy_msgcommentrep_btn_close" android:background="@drawable/juad_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="60.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <Button android:layout_gravity="center" android:id="@id/buy_msgcommentrep_subcomment" android:background="@drawable/dyn_btn_send" android:layout_width="50.0dip" android:layout_height="28.0dip" android:layout_marginLeft="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

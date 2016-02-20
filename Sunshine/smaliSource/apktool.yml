@@ -1,0 +1,19 @@
+version: 2.0.1
+apkFileName: sunshine_app.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '100002'
+  versionName: V3.1
+compressionType: false
+sharedLibrary: false
+unknownFiles:
+  com/sina/weibo/sdk/net/cacert_cn.cer: '8'
+  com/sina/weibo/sdk/net/cacert_com.cer: '8'
+  org/apache/http/entity/mime/version.properties: '8'

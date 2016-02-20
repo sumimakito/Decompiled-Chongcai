@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/buy_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="产品评价" style="@style/buy_topmenu_text" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="clip_vertical" android:orientation="horizontal" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textColor="@drawable/black" android:id="@id/replayproductlist2_btn_all" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="全部" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/replayproductlist2_tv_all" android:background="@drawable/azury" android:layout_width="50.0dip" android:layout_height="2.0dip" android:layout_marginBottom="5.0dip" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:background="@drawable/line" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textColor="@drawable/buy_title_text9" android:id="@id/replayproductlist2_btn_good" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="好评" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/replayproductlist2_tv_good" android:background="@drawable/azury" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="2.0dip" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:background="@drawable/line" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textColor="@drawable/buy_title_text9" android:id="@id/replayproductlist2_btn_center" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="中评" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/replayproductlist2_tv_center" android:background="@drawable/azury" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="2.0dip" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:background="@drawable/line" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/style_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textColor="@drawable/buy_title_text9" android:id="@id/replayproductlist2_btn_bad" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="差评" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/replayproductlist2_tv_bad" android:background="@drawable/azury" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.apppark.mcd.widget.PullDownListView android:id="@id/buy_replayproductlist2_list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>
