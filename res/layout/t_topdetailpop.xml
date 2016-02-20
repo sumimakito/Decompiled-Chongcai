@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_floor_more_ll" android:background="@drawable/black" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_topicdetail_pop_ll_collection" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/t_topicdetail_pop_btn_collection" android:background="@drawable/t_more_collect_n" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收藏" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_topicdetail_pop_ll_jump" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/t_floor_more_btn_collection " android:background="@drawable/t_more_back_n" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <TextView android:id="@id/t_floor_more_btn_collection " android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跳页" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_topicdetail_pop_ll_desc" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/t_topicdetail_pop_btn_order" android:background="@drawable/t_more_reverse_n" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <TextView android:id="@id/t_topicdetail_pop_tv_order" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="倒序查看" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_topicdetail_pop_ll_error" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0">
+            <Button android:background="@drawable/t_more_report_n" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="举报" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t_" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

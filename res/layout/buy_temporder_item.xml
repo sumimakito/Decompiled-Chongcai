@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/buy_temporder_item_ll_content" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/buy_temporder_item_tv_line_bottom" android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text3" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:text="订单详情" />
+        <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/buy_temporder_item_ll_products" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@drawable/buy_title_text6" android:id="@id/buy_temporder_item_tv_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="共1件商品" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_price_text" android:gravity="center|right" android:id="@id/buy_temporder_item_tv_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="xxxx" android:maxLines="1" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@drawable/buy_title_text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="支付方式: " android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@drawable/buy_title_text6" android:gravity="center" android:id="@id/buy_temporder_item_btn_payonline" android:background="@drawable/buy_paysel" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:text="在线支付" />
+            <Button android:textSize="12.0sp" android:textColor="@drawable/buy_title_text6" android:id="@id/buy_temporder_item_btn_paymoney" android:background="@drawable/buy_nopaysel" android:layout_width="60.0dip" android:layout_height="30.0dip" android:text="货到付款" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:minHeight="44.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@drawable/buy_title_text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单备注: " />
+            <TextView android:textSize="13.0sp" android:textColor="@drawable/buy_title_text9" android:gravity="center_vertical" android:id="@id/buy_temporder_item_tv_remark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="若您对订单有特殊需求，可在此备注" android:maxLines="3" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/buy_temporder_item_tv_line_bottom" android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/buy_temporder_item_ll_content" />
+    <TextView android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_below="@id/buy_temporder_item_tv_line_bottom" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dyn_productlist5004_rel_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dyn_productlist5004_rel_search" android:background="@drawable/buy_searchbg" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <cn.apppark.mcd.widget.MyEditText android:textSize="14.0sp" android:textColor="@drawable/black" android:id="@id/dyn_productlist5004_et_keyword" android:background="@drawable/et_bg" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="搜索商品" android:maxLines="1" android:layout_weight="1.0" android:layout_centerInParent="true" />
+        <Button android:id="@id/dyn_productlist5004_btn_search" android:background="@drawable/searchimg" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/dyn_productlist5004_ll_type" android:background="@drawable/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/dyn_productlist5004_rel_search">
+        <Button android:textSize="14.0sp" android:textColor="@drawable/black" android:id="@id/dyn_productlist5004_btn_all" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="全部" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/line2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:textSize="14.0sp" android:textColor="@drawable/gray" android:id="@id/dyn_productlist5004_btn_hot" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="人气" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/line2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:textSize="14.0sp" android:textColor="@drawable/gray" android:id="@id/dyn_productlist5004_btn_sell" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="销量" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/line2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:textSize="14.0sp" android:textColor="@drawable/gray" android:id="@id/dyn_productlist5004_btn_price" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="价格 ↑" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/dyn_productlist5004_img_line" android:background="@drawable/gray3" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/dyn_productlist5004_ll_type" />
+    <cn.apppark.mcd.widget.PullDownListViewAutoLoad android:id="@id/dyn_productlist5004_listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#ffc9c9c9" android:dividerHeight="1.0dip" android:layout_below="@id/dyn_productlist5004_img_line" android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/share_back" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_rel_menu" android:background="@drawable/share_bar" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:id="@id/share_weixin_btn_return" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0dip" android:textColor="@drawable/white" android:gravity="center" android:id="@id/share_weixin_title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="分享至微信" android:layout_centerInParent="true" />
+        <Button android:id="@id/share_weixin_btn_share" android:background="@drawable/share" android:layout_width="50.0dip" android:layout_height="26.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <EditText android:textColor="@drawable/black" android:gravity="center|left|top" android:id="@id/share_weixin_et" android:background="@drawable/circle_cornertran" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/share_weixin_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="20.0dip" android:textColor="@drawable/black" android:gravity="center" android:id="@id/share_weixin_tv_keystate" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="已绑定" />
+            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/share_weixinlogo" />
+        </LinearLayout>
+        <TextView android:textSize="20.0dip" android:textColor="@drawable/black" android:gravity="center" android:id="@id/share_weixin_tv_wordnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="还可输入160字" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_weixin_img" android:layout_width="150.0dip" android:layout_height="150.0dip" />
+</LinearLayout>

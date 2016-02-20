@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.apppark.mcd.widget.RemoteImageView android:id="@id/soft_dobugallery_imga" android:background="@drawable/soft_iconbg" android:padding="2.0dip" android:layout_width="150.0dip" android:layout_height="93.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <cn.apppark.mcd.widget.RemoteImageView android:id="@id/soft_dobugallery_imgb" android:background="@drawable/soft_iconbg" android:padding="2.0dip" android:layout_width="150.0dip" android:layout_height="93.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</LinearLayout>

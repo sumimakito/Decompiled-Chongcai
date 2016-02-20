@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<genprojects>
+  <include>/app/soft/androidsdk/platform-environment.xml</include>
+  <genproject>
+    <appname>模载联合</appname>
+    <flag>10185912</flag>
+    <iconpath>/hbq/data/resources/app//update/user/123772/1437912057341_891553_114.png</iconpath>
+    <debug>false</debug>
+    <resourcesdir>/hbq/data/resources/app//temp//10185912</resourcesdir>
+    <srcprojectpath>/app/sdk/apppark/themeNew</srcprojectpath>
+    <packagename>cn.apppark.yygy</packagename>
+    <aid>0</aid>
+    <pid>0</pid>
+    <tel>0</tel>
+    <sms>0</sms>
+    <vercode>100002</vercode>
+  </genproject>
+</genprojects>

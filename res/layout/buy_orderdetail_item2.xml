@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/buy_orderdetail_ll_detail" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:id="@id/buy_orderdetail_tv_totalnumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="共计:" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_price_text" android:gravity="center|right" android:id="@id/buy_orderdetail_tv_totalprice" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="xxx" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <TextView android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <TextView android:background="@drawable/buy_user" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text3" android:gravity="left" android:id="@id/buy_orderdetail_tv_receiver" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:layout_weight="1.0" />
+            <TextView android:background="@drawable/buy_phone" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text3" android:gravity="left" android:id="@id/buy_orderdetail_tv_phone" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" />
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+        <TextView android:textSize="13.0sp" android:textColor="@drawable/buy_title_text9" android:gravity="center_vertical" android:id="@id/buy_orderdetail_tv_address" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="44.0dip" android:text="详细地址: " />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <TextView android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buy_orderdetail_rel_payType" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text6" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="支付方式: " />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|right" android:id="@id/buy_orderdetail_tv_paytype" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="xxxx" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/buy_orderdetail_rel_payzhifubao" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" style="@style/persion_line" />
+        <TextView android:id="@id/buy_orderdetail_tv_payzhifubao" android:background="@drawable/p_checksel" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_centerVertical="true" />
+        <TextView android:id="@id/buy_orderdetail_tv_payzhifubao2" android:background="@drawable/buy_logo_zhifubao" android:layout_width="60.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/buy_orderdetail_tv_payzhifubao" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/buy_title_text6" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="支付宝客户端" android:layout_toRightOf="@id/buy_orderdetail_tv_payzhifubao2" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/buy_orderdetail_rel_payweixin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" style="@style/persion_line" />
+        <TextView android:id="@id/buy_orderdetail_tv_payweixin" android:background="@drawable/p_nochecksel" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_centerVertical="true" />
+        <TextView android:id="@id/buy_orderdetail_tv_payweixin2" android:background="@drawable/buy_logo_weixin" android:layout_width="60.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/buy_orderdetail_tv_payweixin" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="微信支付" android:layout_toRightOf="@id/buy_orderdetail_tv_payweixin2" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <TextView android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+</LinearLayout>

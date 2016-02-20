@@ -1,0 +1,36 @@
+{
+    "retFlag":"1",
+    "adCount":215,
+    "advert":{
+        "developId":"",
+        "terracePassWord":"",
+        "isShow":"0"
+    },
+    "isWall":"1",
+    "updateTime":"2015-08-31 18:30:19",
+    "verUpdate":{
+        "isForce":0,
+        "verFlag":0,
+        "verUrl":"http://www.app2biz.com/client/drApp.html",
+        "verTxt":"版本更新"
+    },
+    "url":[
+        "http://down.apppark.cn/app/update/app/10304141/client/head_c7d84df3-b7a7-4cf4-b869-63ea1018e9ca.json",
+        "http://down.apppark.cn/app/update/app/10304141/client/page_0c5e19b2-552d-4d65-8af9-ec83bccd9b27.json",
+        "http://down.apppark.cn/app//update/app/10000352/client/clientBase.json"
+    ],
+    "regFlag":1,
+    "legalFlag":1,
+    "copyright":{
+        "startPageWatermark":1,
+        "disclaimerDeclare":1,
+        "isVip":"0",
+        "shareUrl":"http://www.apppark.cn/software_detail.action?self=1&sid=190642",
+        "shareContent":"我正在使用由 主题/自由模式 制作的手机应用【444】，感觉十分不错~，推荐给大家，点击链接免费下载吧~",
+        "isShowMore":1,
+        "qzoneAppID":"",
+        "weixinAppID":"",
+        "sinaAppKey":""
+    }
+}
+】

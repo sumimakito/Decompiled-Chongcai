@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/soft_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/soft_top_menu" android:background="@drawable/soft_topbg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/soft_btn_back" android:background="@drawable/soft_return" android:layout_width="48.0dip" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="应用推荐" />
+        <Button android:id="@id/soft_btn_share" android:background="@drawable/soft_share" android:layout_width="48.0dip" android:layout_height="35.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/soft_scroll_root" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.apppark.mcd.widget.RemoteImageView android:id="@id/soft_detail_img" android:background="@drawable/soft_iconbg" android:padding="2.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                        <TextView android:textSize="16.0sp" android:textColor="@drawable/white" android:gravity="left" android:id="@id/soft_detail_tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <RatingBar android:id="@id/soft_detail_ratbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:numStars="5" android:rating="0.0" android:isIndicator="true" style="@style/roomRatingBar" />
+                        <TextView android:textSize="12.0sp" android:textColor="@drawable/soft" android:gravity="left" android:id="@id/soft_detail_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:textSize="12.0sp" android:textColor="@drawable/soft" android:gravity="left" android:id="@id/soft_detail_tv_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                    </LinearLayout>
+                    <Button android:layout_gravity="bottom" android:id="@id/soft_detail_btn_download" android:background="@drawable/soft_btn_download" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                </LinearLayout>
+                <TextView android:background="@drawable/soft_view" android:layout_width="60.0dip" android:layout_height="13.0dip" />
+                <HorizontalScrollView android:id="@id/soft_detail_scroll_pic" android:background="@drawable/soft_gallerybg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="150.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/soft_detail_ll_pic" android:background="@drawable/soft_gallerybg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+                <ImageView android:background="@drawable/soft_line" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@drawable/white" android:layout_width="45.0dip" android:layout_height="23.0dip" android:layout_marginLeft="10.0dip" android:text="简介" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <Button android:id="@id/soft_detail_btn_open" android:background="@drawable/soft_open" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/soft" android:id="@id/soft_detail_tv_detail" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:text="简介内容" android:lineSpacingExtra="5.0sp" />
+                <TextView android:textSize="16.0sp" android:textColor="@drawable/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="应用推荐" />
+                <LinearLayout android:id="@id/soft_detail_ll_recom" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <Gallery android:id="@id/soft_detail_gallery_recom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

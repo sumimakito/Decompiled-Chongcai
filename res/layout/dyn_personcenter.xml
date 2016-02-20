@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dyn_personcenter_ll_head" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <ImageView android:id="@id/dyn_personcenter_img_headbg" android:background="@drawable/p_bg_1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.apppark.mcd.widget.RemoteImageView android:layout_gravity="center" android:id="@id/dyn_personcenter_img_head" android:background="@drawable/p_icon_80" android:padding="3.0dip" android:layout_width="62.0dip" android:layout_height="62.0dip" android:layout_marginBottom="5.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dyn_personcenter_ll_logionstate" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@drawable/white" android:gravity="center" android:id="@id/dyn_personcenter_tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xxxx" />
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/white" android:gravity="center" android:id="@id/dyn_personcenter_tv_signname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="个性签名" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dyn_personcenter_ll_nologinstate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <Button android:layout_gravity="center" android:id="@id/dyn_personcenter_btn_reg" android:background="@drawable/p_reg" android:layout_width="90.0dip" android:layout_height="36.0dip" />
+                <Button android:gravity="center" android:layout_gravity="center" android:id="@id/dyn_personcenter_btn_login" android:background="@drawable/p_login" android:layout_width="90.0dip" android:layout_height="36.0dip" android:layout_marginLeft="10.0dip" style="@style/buy_topright_btntext" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:id="@id/dyn_personcenter_tv_line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/dyn_personcenter_ll_buycar" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_buycard" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的购物" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/dyn_personcenter_rel_line1" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/dyn_personcenter_ll_tieba" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_tieba" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的贴吧" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/dyn_personcenter_rel_line2" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/dyn_personcenter_ll_friend" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_friend" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的好友" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/dyn_personcenter_rel_line3" android:background="@drawable/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/dyn_personcenter_ll_collection" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_collection" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="我的收藏" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <TextView android:id="@id/dyn_personcenter_tv_line2" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/dyn_personcenter_ll_msg" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_msg" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的消息" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/white" android:gravity="center" android:layout_gravity="center" android:id="@id/dyn_personcenter_tv_msgcount" android:background="@drawable/buy_dot" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/dyn_personcenter_ll_notification" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_msg2" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="系统通知" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/white" android:gravity="center" android:layout_gravity="center" android:id="@id/dyn_personcenter_tv_noticecount" android:background="@drawable/buy_dot" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/dyn_personcenter_ll_set" android:background="@drawable/buy_style_personcenter_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/p_set" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="设置" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="5.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+</LinearLayout>

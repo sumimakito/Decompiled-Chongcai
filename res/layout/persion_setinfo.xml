@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:id="@id/persion_set_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="设置" style="@style/buy_topmenu_text" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/persion_set_ll_topset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+        <LinearLayout android:id="@id/persion_set_ll_info" android:background="@drawable/buy_style_personcenter_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_info" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="基本资料" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow" />
+        </LinearLayout>
+        <RelativeLayout android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/persion_set_ll_pass" android:background="@drawable/buy_style_personcenter_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_pass" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="修改密码" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <RelativeLayout android:background="@drawable/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/persion_set_ll_secret" android:background="@drawable/buy_style_personcenter_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_secret" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="隐私设置" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/persion_set_ll_getmsg" android:background="@drawable/buy_style_personcenter_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_getmsg" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="接收消息通知" android:layout_weight="1.0" />
+        <Button android:layout_gravity="center" android:id="@id/persion_set_btn_msg" android:background="@drawable/p_btn_getmsg" android:layout_width="40.0dip" android:layout_height="25.0dip" android:layout_margin="15.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/persion_set_ll_checkupdate" android:background="@drawable/buy_style_personcenter_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_checkupdate" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="检查更新" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" style="@style/persion_line" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/persion_set_ll_clearcache" android:background="@drawable/buy_style_personcenter_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_delcache" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/black" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="清除缓存" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center" android:id="@id/persion_set_tv_cache" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0kb" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/persion_line" />
+    <LinearLayout android:id="@id/persion_set_ll_loginoff" android:background="@drawable/loginoff" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="35.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p_loginoff" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/white" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="退出登录" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_margin="15.0dip" android:src="@drawable/p_arrow2" />
+    </LinearLayout>
+</LinearLayout>

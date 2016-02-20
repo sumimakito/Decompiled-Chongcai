@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.apppark.mcd.widget.RemoteImageView android:layout_gravity="top" android:id="@id/t_msg_item_img_head" android:background="@drawable/default_head" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/t_msg_item_img_head">
+        <TextView android:id="@id/t_msg_item_tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="张三" style="@style/tb_title_text" />
+        <TextView android:id="@id/t_msg_item_tv_comment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="评论" style="@style/tb_content_text" />
+        <TextView android:gravity="center_vertical" android:id="@id/t_msg_item_tv_mycomment" android:background="@drawable/t_bg_commen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="回复我的评论" style="@style/tb_content_text" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:id="@id/t_msg_item_tv_tbname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="贴吧名字" style="@style/tb_time_text" />
+            <TextView android:id="@id/t_msg_item_tv_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="刚刚" android:layout_weight="1.0" style="@style/tb_time_text" />
+            <ImageView android:id="@id/t_main_item_img_comment" android:background="@drawable/t_comment" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/gray" android:gravity="center" android:id="@id/t_msg_item_tv_commentnum" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="1" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

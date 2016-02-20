@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_all" android:background="@drawable/softlist_bg" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="85.0dip" android:layout_height="85.0dip">
+        <cn.apppark.mcd.widget.RemoteImageView android:id="@id/soft_item_img" android:background="@drawable/soft_iconbg" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/soft_item_img_status" android:background="@drawable/soft_recom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/white" android:gravity="left" android:id="@id/soft_item_tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <RatingBar android:id="@id/ratingBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:numStars="5" android:rating="0.0" android:isIndicator="true" style="@style/roomRatingBar" />
+        <TextView android:textSize="13.0sp" android:textColor="@drawable/soft" android:gravity="left" android:id="@id/soft_item_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/soft_item_btn_download" android:background="@drawable/soft_btn_download" android:focusable="false" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+</LinearLayout>

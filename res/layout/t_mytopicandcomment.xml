@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/tb_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/topmenu" layout="@layout/t_top" />
+    <LinearLayout android:id="@id/t_mytopicandcomment_ll_title" android:background="@drawable/t_barbg" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textColor="@drawable/blue2" android:gravity="center" android:id="@id/t_mytopicandcomment_tv_topic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的主贴" android:layout_weight="1.0" style="@style/tb_title_text" />
+        <TextView android:gravity="center" android:id="@id/t_mytopicandcomment_tv_comment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我的回帖" android:layout_weight="1.0" style="@style/tb_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/t_mytopicandcomment_ll_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/t_mytopicandcomment_ll_title">
+        <TextView android:id="@id/t_mytopicandcomment_tv_linetopic" android:background="@drawable/blue2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:id="@id/t_mytopicandcomment_tv_linecomment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v4.view.ViewPager android:id="@id/t_mytopicandcomment_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.apppark.mcd.widget.LoadDataProgress android:id="@id/wid_loaddata" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

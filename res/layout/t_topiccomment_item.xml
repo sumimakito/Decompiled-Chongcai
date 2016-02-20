@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:padding="10.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.apppark.mcd.widget.RemoteImageView android:layout_gravity="center_vertical" android:id="@id/t_comment_item_img_head" android:background="@drawable/default_head" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/t_comment_item_img_head" android:layout_alignParentTop="true">
+            <TextView android:id="@id/t_comment_item_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="商品名称" style="@style/tb_title_text" />
+            <ImageView android:id="@id/t_comment_item_img_isfloor" android:background="@drawable/t_floor_host2" android:layout_width="26.0dip" android:layout_height="16.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/t_comment_item_tv_name" android:layout_alignTop="@id/t_comment_item_tv_name" />
+            <TextView android:id="@id/t_comment_item_tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="刚刚" android:maxLines="1" android:layout_below="@id/t_comment_item_tv_name" style="@style/tb_time_text" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <LinearLayout android:gravity="center" android:id="@id/t_floor_more_ll" android:background="@drawable/t_floor_more" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="44.0dip" android:layout_toLeftOf="@id/t_comment_item_btn">
+                <Button android:textColor="@drawable/white" android:id="@id/t_floor_more_btn_replay" android:background="@drawable/t_floor_more_btn" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="回复" />
+                <Button android:textColor="@drawable/white" android:id="@id/t_floor_more_btn_collection " android:background="@drawable/t_delete" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <Button android:id="@id/t_comment_item_btn" android:background="@drawable/t_floor_morebtn" android:focusable="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textColor="@drawable/black" android:id="@id/t_comment_item_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" style="@style/tb_title_text" />
+    <LinearLayout android:orientation="vertical" android:id="@id/t_comment_item_ll_img" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" />
+    <ImageView android:id="@id/t_comment_item_img_line" android:background="@drawable/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/t_comment_item_ll_soncomment_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textColor="@drawable/gray" android:id="@id/t_comment_item_tv_soncomment_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_weight="1.0" style="@style/tb_content_text" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/t_comment_item_img_soncomment_1" android:background="@drawable/t_delete" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/t_comment_item_ll_soncomment_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textColor="@drawable/gray" android:id="@id/t_comment_item_tv_soncomment_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_weight="1.0" style="@style/tb_content_text" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/t_comment_item_img_soncomment_2" android:background="@drawable/t_delete" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    </LinearLayout>
+    <TextView android:textColor="@color/tb_blue" android:gravity="center|right" android:id="@id/t_comment_item_tv_more" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="40.0dip" style="@style/tb_content_text" />
+</LinearLayout>

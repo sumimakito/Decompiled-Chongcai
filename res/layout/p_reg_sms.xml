@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/buy_rel_topmenubg" android:background="@drawable/buy_topmenubg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <Button android:id="@id/p_reg_sms_btn_back" android:background="@drawable/t_back" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="注册新用户" style="@style/buy_topmenu_text" />
+        </RelativeLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="35.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/buy_personcenter_ll_myorder" android:background="@drawable/circle_corner_buy" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="手机号" />
+                <cn.apppark.mcd.widget.MyEditText2 android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray3" android:gravity="center|left" android:id="@id/p_reg_sms_et_phone" android:background="@drawable/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="请输入您的手机号码" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="昵称" />
+                <cn.apppark.mcd.widget.MyEditText2 android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray3" android:gravity="center|left" android:id="@id/p_reg_sms_et_nikeName" android:background="@drawable/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="10个字以内" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/buy_personcenter_ll_mycollection" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="密码" />
+                <cn.apppark.mcd.widget.MyEditText2 android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray3" android:gravity="center|left" android:id="@id/p_reg_sms_et_pass" android:background="@drawable/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="6-14位数字或字母" android:maxLines="1" android:layout_weight="1.0" android:inputType="textPassword" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/gray" android:gravity="center|left" android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="验证码" />
+                <EditText android:textSize="14.0sp" android:textColor="@drawable/black" android:textColorHint="@drawable/gray9" android:gravity="center|left" android:id="@id/p_reg_sms_et_smscode" android:background="@drawable/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="输入验证码" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:textSize="14.0sp" android:textColor="@drawable/white" android:id="@id/p_reg_sms_btn_smscode" android:background="@drawable/p_vertifyphone" android:layout_width="100.0dip" android:layout_height="30.0dip" android:text="获取验证码" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/line" android:scaleType="fitXY" />
+        <cn.apppark.mcd.widget.MyBtn android:id="@id/p_reg_sms_mybtn_reg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="35.0dip" />
+    </LinearLayout>
+    <include layout="@layout/p_piccode" />
+</FrameLayout>
