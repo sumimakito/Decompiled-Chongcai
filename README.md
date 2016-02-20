@@ -5,4 +5,4 @@ This repository keeps a decompiled copy of the Sunshine app developed by the so-
 For educational purposes only.(#滑稽)
 
 # STATUS
-#### WAITING FOR RELEASE
+#### VERSION 3.1 DECOMPILED
