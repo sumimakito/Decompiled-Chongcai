@@ -1,10 +1,10 @@
 # Decompiled Chongcai
 
-> Notice: Repository name will be changed to Decompiled-Chongcai shortly.
+This repository keeps a copy of the decompiled applications developed by the SO-CALLED company "ChongCai", which "founded" by a group of childish guys.
 
-This repository keeps a copy of the decompiled applications developed by the so-called company "ChongCai".
+A founder of Chongcai said they developed these applications on their own. Looking at the package name, we can easily infer that they have used an automatic tool to generate those applications. 
 
-A founder of Chongcai said they developed these applications on their own, but look at the package name, we can infer that they have used an automatic tool to generate those applications. Yeah, generating, not developing.
+Yeah, I'm serious. It is GENERATING, not DEVELOPING.
 
 For educational purposes only. #(滑稽)
 
