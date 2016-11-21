@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/soft_recom_ll_gallery" android:background="@drawable/soft_gallerybg" android:layout_width="fill_parent" android:layout_height="112.0dip">
-        <cn.apppark.mcd.widget.UserGallery android:id="@id/soft_recom_gallery" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="0.0dip" android:layout_weight="1.0" />
-        <LinearLayout android:gravity="center" android:id="@id/soft_recom_ll_point" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" />
-    </LinearLayout>
-    <ImageView android:background="@drawable/soft_line" android:layout_width="fill_parent" android:layout_height="3.0dip" />
-</LinearLayout>

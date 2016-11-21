@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/imageview_ll_root" android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textSize="16.0sp" android:textColor="@drawable/black" android:id="@id/imageview_btn_save" android:background="@drawable/dialog_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="保存到手机" />
-    <Button android:textSize="16.0sp" android:textColor="@drawable/black" android:id="@id/imageview_btn_cancel" android:background="@drawable/dialog_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:text="取消" />
-</LinearLayout>

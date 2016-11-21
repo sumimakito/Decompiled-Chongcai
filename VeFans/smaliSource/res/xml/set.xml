@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference android:title="后台通知" android:selectable="true" android:key="lbs_on_off" android:summary="通知" android:summaryOn="当前状态:打开" android:summaryOff="当前状态:关闭" android:disableDependentsState="false" />
-    <cn.apppark.mcd.widget.TimePreference android:title="开始时间" android:key="lbs_start" android:summary="09:00" android:dependency="lbs_on_off" android:defaultValue="09:00" />
-    <cn.apppark.mcd.widget.TimePreference android:title="结束时间" android:key="lbs_end" android:summary="23:59" android:dependency="lbs_on_off" android:defaultValue="23:59" />
-</PreferenceScreen>

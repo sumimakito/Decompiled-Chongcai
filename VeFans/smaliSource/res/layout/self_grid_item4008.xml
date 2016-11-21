@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/self_grid_item_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/self_grid_item_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/self_grid_item_tv" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
-</FrameLayout>

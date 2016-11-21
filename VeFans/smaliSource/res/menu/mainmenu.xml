@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/menu_checkupdate" android:id="@id/menuCkeckUpdate" android:title="检查更新" />
-    <item android:icon="@drawable/menu_setting" android:id="@id/menuSet" android:title="设置" />
-    <item android:icon="@drawable/menu_about" android:id="@id/menuAbout" android:title="更多" />
-    <item android:icon="@drawable/menu_exit" android:id="@id/menuExit" android:title="退出" />
-</menu>

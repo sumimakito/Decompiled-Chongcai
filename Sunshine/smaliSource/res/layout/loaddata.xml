@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/loaddata_lay_loaddata" android:background="@drawable/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center|right" android:id="@id/loaddata_img_fail" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="40.0dip" android:src="@drawable/icon" />
-    <ProgressBar android:layout_gravity="center|right" android:id="@id/loaddata_pro_loaddata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="40.0dip" style="?android:attr/progressBarStyleSmall" />
-    <TextView android:textSize="13.0sp" android:textColor="@drawable/gray" android:gravity="center" android:id="@id/loaddata_tv_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/loaddata" />
-</LinearLayout>

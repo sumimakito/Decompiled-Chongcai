@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/myedittext2_rel_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textSize="14.0sp" android:textColor="@drawable/gray9" android:textColorHint="@drawable/gray9" android:gravity="center|left" android:id="@id/myedittext2_et" android:background="@drawable/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionDone" />
-    <Button android:id="@id/myedittext2_clear" android:background="@drawable/p_clean" android:layout_width="25.0dip" android:layout_height="25.0dip" />
-    <Button android:id="@id/myedittext2_passview" android:background="@drawable/p_eye" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
-</LinearLayout>

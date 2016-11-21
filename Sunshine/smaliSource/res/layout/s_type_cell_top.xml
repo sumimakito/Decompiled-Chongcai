@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/typecell_rel_root" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textSize="12.0sp" android:textColor="@drawable/blue" android:gravity="center" android:layout_gravity="center" android:id="@id/typecell_btn" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="5" />
-    <TextView android:id="@id/typecell_cell_tv_bottomline" android:background="@drawable/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
-    <TextView android:id="@id/typecell_cell_tv_line" android:background="@drawable/gray12" android:layout_width="1.0px" android:layout_height="22.0dip" android:layout_centerVertical="true" />
-</RelativeLayout>

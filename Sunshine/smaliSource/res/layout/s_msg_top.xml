@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/toptype" layout="@layout/s_type_top" />
-    <cn.apppark.mcd.widget.PullDownListViewAutoLoad android:id="@id/s_msg_listview" android:background="@drawable/gray2" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@drawable/gray11" android:dividerHeight="0.0dip" android:layout_below="@id/toptype" android:layout_alignParentLeft="true" android:headerDividersEnabled="false" />
-</RelativeLayout>

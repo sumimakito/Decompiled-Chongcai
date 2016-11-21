@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/gray2" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/s_multiple_ll_type" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="44.0dip" />
-    <TextView android:id="@id/s_multiple_tv_line" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/s_multiple_ll_type" android:layout_centerVertical="true" />
-    <cn.apppark.mcd.widget.PullDownListViewAutoLoad android:id="@id/s_multiple_listview" android:background="@drawable/gray2" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:layout_below="@id/s_multiple_tv_line" android:layout_alignParentLeft="true" android:headerDividersEnabled="false" />
-</RelativeLayout>

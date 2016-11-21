@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/view_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <RelativeLayout android:id="@id/holder" android:background="@drawable/red" android:clickable="true" android:layout_width="100.0dip" android:layout_height="fill_parent">
-        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 删除" android:drawableLeft="@drawable/t_delete" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</merge>
